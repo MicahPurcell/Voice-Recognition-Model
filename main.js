@@ -18,7 +18,7 @@ recognition.onresult = function(event){
     
     var content = event.results[0][0].trascript
 
-    if (content=="Circle.") {
+    if (content=="circle") {
         x = Math.floor(Math.random() * 900)
         y = Math.floor(Math.random() * 600)
         draw_circle= "set"
@@ -26,7 +26,7 @@ recognition.onresult = function(event){
         
     }
 
-    if (content=="Rectangle.") {
+    if (content=="rectangle") {
         x = Math.floor(Math.random() * 900)
         y = Math.floor(Math.random() * 600)
         draw_rectangle= "set"
